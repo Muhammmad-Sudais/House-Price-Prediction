@@ -34,12 +34,13 @@ Deployment: Model integrated into Streamlit app for real-time predictions, conve
 # How to Run the Project
 Clone the Repository
 Make sure you have Git installed on your system. Open your terminal and run:
-
-git clone https://github.com/Rishiraj8/house_prediction.git
-cd House
-
+```
+https://github.com/Muhammmad-Sudais/House-Price-Prediction.git
+```
+```
 pip install -r requirements.txt
-Start the Flask server:
-
-python app.py
+```
+```
+streamlit run app.py
+```
 
