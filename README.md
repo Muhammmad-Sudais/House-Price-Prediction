@@ -30,3 +30,16 @@ Gradient Boosting Regressor: MAE = 13,500.89, RMSE = 17,142.37
 Findings: Gradient Boosting outperforms Linear Regression (lower errors), likely due to handling non-linear relationships and feature interactions better. It was selected as the best model and saved for deployment.
 Visualization: Scatter plots of actual vs. predicted prices saved as prediction_results.png, showing reasonable fit with some outliers.
 Deployment: Model integrated into Streamlit app for real-time predictions, converting USD to PKR (~278 rate).
+
+# How to Run the Project
+Clone the Repository
+Make sure you have Git installed on your system. Open your terminal and run:
+
+git clone https://github.com/Rishiraj8/house_prediction.git
+cd House
+
+pip install -r requirements.txt
+Start the Flask server:
+
+python app.py
+
